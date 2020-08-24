@@ -15,6 +15,13 @@
             "alla\\Generator\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "alla\\Generator\\AllaGeneratorServiceProvider"
+            ]
+        }
+    },
     "require": {
         "illuminate/support": "7.x",
         "illuminate/console": "7.x",
