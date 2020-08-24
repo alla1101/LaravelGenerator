@@ -1,0 +1,23 @@
+{
+    "name": "alla1101/laravelgenerator",
+    "description": "Package to generate full Backend from One File with description",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alla Barkat",
+            "email": "a2la1101@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "alla\\Generator\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "7.x",
+        "illuminate/console": "7.x",
+        "illuminate/filesystem": "7.x"
+    }
+}
