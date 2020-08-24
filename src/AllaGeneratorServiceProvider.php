@@ -3,7 +3,7 @@
 namespace Alla\Generator;
 
 use Illuminate\Support\ServiceProvider;
-use alla\Generator\Commands\GeneratorBuilderCommand;
+use Alla\Generator\Commands\GeneratorBuilderCommand;
 
 class AllaGeneratorServiceProvider extends ServiceProvider
 {
@@ -16,5 +16,9 @@ class AllaGeneratorServiceProvider extends ServiceProvider
                 ]
             );
         }
+    }
+    public function register()
+    {
+      //
     }
 }
