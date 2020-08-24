@@ -1,6 +1,6 @@
 <?php
 
-namespace alla\Generator;
+namespace Alla\Generator;
 
 use Illuminate\Support\ServiceProvider;
 use alla\Generator\Commands\GeneratorBuilderCommand;

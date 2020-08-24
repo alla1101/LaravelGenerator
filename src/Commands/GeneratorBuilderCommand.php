@@ -1,6 +1,6 @@
 <?php
 
-namespace alla\Generator\Commands;
+namespace Alla\Generator\Commands;
 
 use Illuminate\Console\Command;
 
